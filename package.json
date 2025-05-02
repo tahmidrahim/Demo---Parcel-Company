@@ -1,9 +1,18 @@
 {
+  "name": "DEMO",
+  "type": "module",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.5",
+    "@sveltejs/kit": "^0.0.30",
+    "svelte": "^5.0.0",
     "tailwindcss": "^4.1.5"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.8"
+    "@sveltejs/adapter-static": "^0.0.17",
+    "vite": "^6.0.0"
   }
 }
